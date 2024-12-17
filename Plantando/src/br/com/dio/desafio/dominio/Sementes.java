@@ -1,8 +1,11 @@
 package br.com.dio.desafio.dominio;
 
+
+
 import java.util.Scanner;
 
-public class Sementes{
+
+public class Sementes extends Terra{
 
     Scanner scan = new Scanner(System.in); 
     
@@ -10,15 +13,17 @@ public class Sementes{
     private double tamanho = scan.nextDouble();
     private double quantidadeEmKg = scan.nextDouble();
     
-    public String getTipoDeSemente() {
-        return tipoDeSemente;
-    }
+    
     public double getQuantidadeEmKg() {
         return quantidadeEmKg;
     }
     public double getTamanho() {
         return tamanho;
     }
+    public String getTipoDeSemente() {
+        return tipoDeSemente;
+    }
+
     public void setTipoDeSemente(String tipoDeSemente) {
         this.tipoDeSemente = tipoDeSemente;
     }
@@ -33,7 +38,7 @@ public class Sementes{
     @Override
     public String toString() {
         return "Tipo de Semente = " + tipoDeSemente + ", Tamanho = " + tamanho
-                + ", Quantidade em Kg = " + quantidadeEmKg;
+        + ", Quantidade em Kg = " + quantidadeEmKg;
     }
     
 }
