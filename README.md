@@ -1,2 +1,2 @@
-# planta-o-poo
+# plantar-trigo-poo
 Criação de uma plantação em progamação orientada a objetos
