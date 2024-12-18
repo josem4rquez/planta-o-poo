@@ -1,2 +1,2 @@
 # plantar-trigo-poo
-Criação de uma plantação em progamação orientada a objetos
+Criação de uma plantação de trigo em POO
