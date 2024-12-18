@@ -1,9 +1,6 @@
 package br.com.dio.desafio.dominio;
 
-
-
 import java.util.Scanner;
-
 
 public class Sementes extends Terra{
 
@@ -11,8 +8,7 @@ public class Sementes extends Terra{
     
     private String tipoDeSemente;
     private double tamanho = scan.nextDouble();
-    private double quantidadeEmKg = scan.nextDouble();
-    
+    private double quantidadeEmKg = scan.nextDouble(); 
     
     public double getQuantidadeEmKg() {
         return quantidadeEmKg;

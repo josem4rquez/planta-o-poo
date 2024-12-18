@@ -1,5 +1,5 @@
-
-
+import br.com.dio.desafio.dominio.Ferramentas;
+import br.com.dio.desafio.dominio.Semeador;
 import br.com.dio.desafio.dominio.Sementes;
 import br.com.dio.desafio.dominio.Terra;
 
@@ -39,8 +39,21 @@ public class Main {
 
         System.out.println(componentesDoSoloDaPlantação);
 
-        
+        System.out.println("\n-- Ferramentas a Disposição --\n");
 
+        Ferramentas ferramentasDisponibilizadas = new Ferramentas();
 
+        ferramentasDisponibilizadas.getFerramentasADisposição().add("Pá");
+        ferramentasDisponibilizadas.getFerramentasADisposição().add("Enxada");
+        ferramentasDisponibilizadas.getFerramentasADisposição().add("Trator");
+        ferramentasDisponibilizadas.getFerramentasADisposição().add("Irrigador");
+
+        System.out.println(ferramentasDisponibilizadas);
+
+        System.out.println("\n-- Informações Sobre o Semeador --\n");
+
+        Semeador semeadorZé = new Semeador(1 , 1.75 , 75 , 37 , "Seu Zé" , true );
+
+        System.out.println(semeadorZé.toString() + "\n");
     }
 }

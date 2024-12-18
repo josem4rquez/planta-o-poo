@@ -10,16 +10,11 @@ public class Terra {
     public Set<String> getCaracteristicasLocais() {
         return caracteristicasLocais;
     }
-    
     public void setCaracteristicasLocais(Set<String> caracteristicasLocais) {
         this.caracteristicasLocais = caracteristicasLocais;
     }
-
     @Override
     public String toString() {
         return "{ Caracteristicas da Terra Local = " + caracteristicasLocais + " }";
     }
-
-
-    
 }
